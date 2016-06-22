@@ -1,7 +1,9 @@
 domains:
   engine:
     vm-type: ovirt-engine
-    memory: 4096
+    memory: 8192
+    cpu: 4
+    vcpu: 4
     nics:
       - net: lago
     disks:
@@ -51,7 +53,9 @@ domains:
 
   host1:
     vm-type: ovirt-host
-    memory: 2048
+    memory: 4096
+    cpu: 4
+    vcpu: 4
     nics:
       - net: lago
     disks:
@@ -69,7 +73,9 @@ domains:
 
   host0:
     vm-type: ovirt-host
-    memory: 2048
+    memory: 4096
+    cpu: 4
+    vcpu: 4
     nics:
       - net: lago
     disks:
